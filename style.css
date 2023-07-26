@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(131, 131, 131);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 50px;
+}
+
+#box{
+    display: none;
+}
+
+#username, #useremail{
+    margin-left: 1rem;
+}
+
+
+#backBtn{
+    display: none;
+    width: 20%;
+    margin : 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#usernamepara{
+    text-align: center;
+    font-size: 1.3rem;
+    color: purple ;
+}
+
+.mcq{
+    padding: 3rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0.9rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+button{
+    width: 100%;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.808);
+    border: none;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: purple;
+}
+
+
+.resultContainer{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 50px;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quizscore{
+    color: purple;
+    text-decoration: underline;
+}
+
+table{
+    padding: 1rem
+}
+
+th{
+    font-size: 2rem;
+    border: 3px solid;
+    padding: 1rem;
+}
+
+td{
+    font-size: 1.5rem;
+    border: 3px solid;
+    padding: 1rem;
+}
+
